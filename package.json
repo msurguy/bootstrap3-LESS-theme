@@ -1,0 +1,24 @@
+{
+  "name": "bootstrap3-LESS-theme",
+  "version": "0.0.1",
+  "description": "Bootstrap 3 Theme starter with LESS and gulp.js",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Maksim Surguy",
+  "license": "MIT",
+  "devDependencies": {
+    "gulp": "^3.5.5",
+    "gulp-rename": "^1.2.0",
+    "gulp-concat": "^2.1.7",
+    "gulp-uglify": "^0.2.1",
+    "gulp-jshint": "^1.5.0",
+    "gulp-sass": "^0.7.1",
+    "gulp-less": "^1.2.2",
+    "gulp-minify-css": "^0.3.0",
+    "gulp-autoprefixer": "0.0.6",
+    "gulp-size": "^0.1.3",
+    "gulp-bytediff": "^0.1.8"
+  }
+}
