@@ -47,7 +47,21 @@ gulp.task('less', function () {
 
 // Concatenate & Minify JS
 gulp.task('scripts', function() {
-    return gulp.src('js/*.js')
+    return gulp.src([
+            'js/transition.js',
+            'js/alert.js',
+            'js/button.js',
+            'js/carousel.js',
+            'js/collapse.js',
+            'js/dropdown.js',
+            'js/modal.js',
+            'js/tooltip.js',
+            'js/popover.js',
+            'js/scrollspy.js',
+            'js/tab.js',
+            'js/affix.js',
+            'js/script.js'
+        ])
         .pipe(concat('scripts.js'))
         .pipe(bytediff.start())
         .pipe(gulp.dest('dist/js'))
@@ -56,6 +70,8 @@ gulp.task('scripts', function() {
         .pipe(gulp.dest('dist/js'))
         .pipe(bytediff.stop());
 });
+
+
 
 // Define a task to watch changes in js and less folders
 gulp.task('watch', function () {
