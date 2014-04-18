@@ -5,7 +5,7 @@ Bootstrap 3 theme starter based on LESS and gulp instead of grunt.
 
 # What's this? 
 
-In my latest projects I needed to create a bunch of custom Bootstrap 3 themes (http://bookpag.es and http://weddingpag.es). I love using LESS for quick CSS modifications and using Grunt is not my thing.
+In my latest projects I needed to create a bunch of custom Bootstrap 3 themes (http://bookpag.es for example). I love using LESS for quick CSS modifications and using Grunt is not my thing.
 
 Instead I decided to create a Bootstrap theme starter that uses easy to understand gulp.js (gulpjs.com) that you can modify to fit your liking. Gulp allows you to automate all the minification/compilation of assets in a convenient way. 
 
